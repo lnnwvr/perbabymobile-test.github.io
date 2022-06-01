@@ -1,0 +1,19 @@
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Geburtsmonat</th>
+      <th scope="col">Termine</th>
+      <th scope="col">Kapazität</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{ range .Site.Data.courses }} 
+    <tr>
+      <th scope="row">{{.}}</th>
+      <td>{{.}}</td>
+      <td>Montag 16:30 Uhr ab 16. Mai 2022</td>
+      <td>Ausgebucht</td>
+    </tr>
+    {{end}}
+  </tbody>
+</table>
