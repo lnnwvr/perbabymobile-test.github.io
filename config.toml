@@ -1,4 +1,5 @@
-baseURL = "https://lnnwvr.github.io/perbabymobile-test.github.io/"
+#baseURL = "https://lnnwvr.github.io/perbabymobile-test.github.io/"
+baseURL = "/"
 languageCode = "en-us"
 title = "Hugo Hero Theme"
 themesDir = "themes"
