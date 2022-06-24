@@ -1,7 +1,7 @@
 ---
-title: 'Our Difference'
-weight: 2
-background: ''
+title: 'Unser Team'
+weight: 1
+background: 'images/kevin-bhagat-461952-unsplash.jpg'
 button: 'About Us'
 buttonLink: 'about'
 ---

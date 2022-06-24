@@ -1,5 +1,5 @@
-baseURL = "https://lnnwvr.github.io/perbabymobile-test.github.io/"
-#baseURL = "/"
+#baseURL = "https://lnnwvr.github.io/perbabymobile-test.github.io/"
+baseURL = "/"
 languageCode = "en-us"
 title = "PerBabyMobile"
 themesDir = "themes"

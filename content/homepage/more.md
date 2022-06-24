@@ -1,6 +1,6 @@
 ---
-title: 'Was anderes'
-weight: 3
+title: 'PerBabyMusica'
+weight: 2
 background: 'images/kevin-bhagat-461952-unsplash.jpg'
 button: 'Zu den texten'
 buttonLink: 'work'
