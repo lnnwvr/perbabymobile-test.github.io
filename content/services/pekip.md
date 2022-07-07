@@ -4,9 +4,10 @@ date: 2018-11-28T15:15:34+10:00
 icon: "services/service-icon-4.png"
 featured: true
 draft: false
-heroHeading: "Mergers & Acquisitions"
-heroSubHeading: "Thinking of acquiring another business? Let us guide you through the process."
+heroHeading: "PEKiP ®"
+heroSubHeading: "Prager Eltern Kind Program"
 heroBackground: "services/service2.jpg"
+wieght: 1
 ---
 Das erste Lebensjahr ist eine ganz besondere Zeit. Das Baby lernt stetig dazu:
 

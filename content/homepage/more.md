@@ -6,4 +6,4 @@ button: 'Zu den texten'
 buttonLink: 'work'
 ---
 
-Lorem ipsum dolor sit amet, et essent mediocritatem quo, choro volumus oporteat an mei. Numquam dolores mel eu, mea docendi omittantur et, mea ea duis erat. Elit melius cu ius. Per ex novum tantas putant, ei his nullam aliquam apeirian. Aeterno quaestio constituto sea an, no eum intellegat assueverit.
+Wollen wir per baby musica hier hin machen? Sollen Hier Produkte/Partner verlinkt werden? Events?

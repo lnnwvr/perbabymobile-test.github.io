@@ -1,9 +1,10 @@
 ---
-title: 'Unser Team'
+title: 'Unser Konzept'
 weight: 1
 background: 'images/kevin-bhagat-461952-unsplash.jpg'
-button: 'About Us'
+button: 'Über Uns'
 buttonLink: 'about'
 ---
 
-Lorem ipsum dolor sit amet, et essent mediocritatem quo, choro volumus oporteat an mei. ipsum dolor sit amet, et essent mediocritatem quo,
+Die kleine Wohlfühl-Oase für junge Familien. Ein neuer Lebensabschnitt beginnt. 
+Unsere Passion ist es, den Übergang vom Leben ohne Kind zum Leben mit Kind bestmöglich zu begleiten.

@@ -1,5 +1,5 @@
-#baseURL = "https://lnnwvr.github.io/perbabymobile-test.github.io/"
-baseURL = "/"
+baseURL = "https://lnnwvr.github.io/perbabymobile-test.github.io/"
+#baseURL = "/"
 languageCode = "en-us"
 title = "PerBabyMobile"
 themesDir = "themes"
@@ -14,21 +14,21 @@ theme = "hugo-hero-theme"
   google_analytics_id=""
 
   [params.logo]
-    mobile = "images/logo-mobile.svg"
+    mobile = "images/logo.svg"
     mobile_height = "36px"
     mobile_width = "36px"
     desktop = "images/logo.svg"
     desktop_height = "29px"
     desktop_width = "217px"
-    alt = "Hugo Hero"
+    alt = "PerBabyMobile"
 
   [params.homepage_meta_tags]
-    meta_description = "Hero is a multipurpose Hugo theme with fullscreen hero images and page sections. It contains content types for a business or portfolio site."
-    meta_og_title = "Hugo Hero Theme"
+    meta_description = "PerBabyMobile entstand im Sommer 2000 als erstes und einziges Spiel- und Bewegungszentrum für Babys und Kleinkinder in Frankfurt. Ein Spielraum, der speziell für Babys und Kleinkinder eingerichtet wurde."
+    meta_og_title = "PerBabyMobile"
     meta_og_type = "website"
-    meta_og_url = "https://hugo-hero.netlify.app"
+    meta_og_url = "https://lnnwvr.github.io/perbabymobile-test.github.io/"
     meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-hero-theme/master/images/tn.png"
-    meta_og_description = "Hero is a multipurpose Hugo theme with fullscreen hero images and page sections. It contains content types for a business or portfolio site."
+    meta_og_description = "PerBabyMobile entstand im Sommer 2000 als erstes und einziges Spiel- und Bewegungszentrum für Babys und Kleinkinder in Frankfurt. Ein Spielraum, der speziell für Babys und Kleinkinder eingerichtet wurde."
     meta_twitter_card = "summary"
     meta_twitter_site = "@zerostaticio"
     meta_twitter_creator = "@zerostaticio"
@@ -36,25 +36,21 @@ theme = "hugo-hero-theme"
 [[menu.main]]
 	name = "Angebote"
 	url = "/services/"
-    weight = 1
-
-[[menu.main]]
-    name = "Work"
-    url = "/work/"
     weight = 2
 
 [[menu.main]]
-    name = "About"
+    name = "Musik"
+    url = "/work/"
+    weight = 3
+
+[[menu.main]]
+    name = "Über Uns"
     url = "/about/"
-    weight = 3
+    weight = 1
+
 
 [[menu.main]]
-    name = "History"
-    url = "/history/"
-    weight = 3
-
-[[menu.main]]
-    name = "Contact"
+    name = "Kontakt"
     url = "/contact/"
     weight = 4
 
