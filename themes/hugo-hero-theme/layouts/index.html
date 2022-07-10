@@ -49,14 +49,14 @@
     </div>
     {{ end }}
     <div class="col-12 text-center">
-      <a class="button button-primary" href="{{ .Site.BaseURL }}services">Unsere Angebote</a>
+      <a class="button button-primary" href="{{ .Site.BaseURL }}services">Alle Angebote</a>
     </div>
   </div>
 </div>
 {{end}}
 
-{{ range first 1 (after 1 $reusablePages) }}
-<div id="home" class="strip bg-primary bg-cover bg-position-top bg-overlay" style='background-image: url("{{ .Params.background | relURL }}");'>
+{{ range (after 1 $reusablePages) }}
+<div id="home" class="strip bg-primary bg-cover bg-position-top" style='background-image: url("{{ .Params.background | relURL }}");'>
   <div class="container pt-8 pb-8 pb-md-12 pt-md-12">
     <div class="row justify-content-center">
       <div class="col-12 col-md-8 text-center text-white">

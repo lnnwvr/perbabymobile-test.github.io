@@ -8,12 +8,14 @@
   </thead>
   <tbody>
     {{ range .Site.Data.courses }} 
+    {{ $monat := .monat }}
+    {{ range  $i, $e :=  .termine }} 
     <tr>
-      <th scope="row">{{.}}</th>
-      <td>{{.}}</td>
-      <td>Montag 16:30 Uhr ab 16. Mai 2022</td>
+      <th scope="row">{{ if eq $i 0 }}{{ $monat }}{{end}}</th>
+      <td>{{.tag}}</td>
       <td>Ausgebucht</td>
     </tr>
+    {{end}}
     {{end}}
   </tbody>
 </table>

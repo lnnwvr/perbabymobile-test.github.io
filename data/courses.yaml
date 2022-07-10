@@ -1,3 +1,12 @@
-- Termin1
-- Termin2
-- Termin3
+- monat: Januar 2022
+  termine: 
+  - tag: Mittwoch 9:30 Uhr ab 06. April 2022
+    kapazität: 0
+  - tag: Dienstag 9:30 Uhr ab 26. April 2022
+    kapazität: 0
+- monat: Februar 2022
+  termine: 
+  - tag: Mittwoch 9:30 Uhr ab 06. April 2022
+    kapazität: 0
+  - tag: Dienstag 9:30 Uhr ab 26. April 2022
+    kapazität: 0    
