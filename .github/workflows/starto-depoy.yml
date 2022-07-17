@@ -39,4 +39,5 @@ jobs:
           password: ${{ secrets.SCP_PASS }}
           port: ${{ secrets.SCP_PORT }}
           source: "public/*"
-          #target: "."          
+          target: "test"
+          tar_tmp_path: tartmp
