@@ -32,6 +32,6 @@ jobs:
           username: ${{ secrets.SCP_USER }}
           password: ${{ secrets.SCP_PASS }}
           port: 21
-          log-level: debug
+          log-level: verbose
           local-dir: public/
     
