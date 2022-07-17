@@ -26,14 +26,11 @@ jobs:
 
       
       - name: copy file via ssh password
-        uses: appleboy/scp-action@master
+        uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
-          host: ${{ secrets.SCP_HOST }}
+          server: ${{ secrets.SCP_HOST }}
           username: ${{ secrets.SCP_USER }}
           password: ${{ secrets.SCP_PASS }}
-          port: ${{ secrets.SCP_PORT }}
-          source: "public/*"
-          target: "test"
-          tar_tmp_path: tartmp
-          use_insecure_cipher: true
+          port: 21
+          local-dir: public/
     
