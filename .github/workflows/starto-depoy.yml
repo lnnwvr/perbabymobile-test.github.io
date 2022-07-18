@@ -36,6 +36,7 @@ jobs:
           target: "test/"
           tar_tmp_path: foo
           debug: true
+          overwrite: true
           use_insecure_cipher: true
           
     
