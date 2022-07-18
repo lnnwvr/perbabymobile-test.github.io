@@ -33,7 +33,7 @@ jobs:
           password: ${{ secrets.SCP_PASS }}
           port: ${{ secrets.SCP_PORT }}
           source: "public/*"
-          target: "test"
+          target: "test/"
           tar_tmp_path: foo
           debug: true
           use_insecure_cipher: true
