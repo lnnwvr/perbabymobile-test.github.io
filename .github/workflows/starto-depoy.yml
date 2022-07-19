@@ -26,17 +26,14 @@ jobs:
 
       
       - name: executing remote ssh commands using password
-        uses: appleboy/scp-action@master
+        uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
-          host: ${{ secrets.SCP_HOST }}
-          username: ${{ secrets.SCP_USER }}
-          password: ${{ secrets.SCP_PASS }}
-          port: ${{ secrets.SCP_PORT }}
-          source: "public/*"
-          target: "test/"
-          tar_tmp_path: foo
-          debug: true
-          overwrite: true
-          use_insecure_cipher: true
+          server: ftp.strato.de
+          port: 21
+          local-dir: ./public/
+          server-dir: ./perbabymobile.de
+          dangerous-clean-slate: true
+          username: github@perbabymobile.de
+          password: ${{ secrets.ftp_password }}
           
     
