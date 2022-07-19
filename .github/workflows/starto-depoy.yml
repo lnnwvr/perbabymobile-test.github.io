@@ -31,7 +31,7 @@ jobs:
           server: ftp.strato.de
           port: 21
           local-dir: ./public/
-          server-dir: ./perbabymobile.de
+          server-dir: ./perbabymobile.de/
           dangerous-clean-slate: true
           username: github@perbabymobile.de
           password: ${{ secrets.FTP_PASS }}
