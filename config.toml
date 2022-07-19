@@ -1,4 +1,4 @@
-#baseURL = "/"
+#baseURL = "foo/"
 baseURL = "https://www.perbabymobile.de/perbabymobile.de/"
 languageCode = "de-de"
 title = "PerBabyMobile"
