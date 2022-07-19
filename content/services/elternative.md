@@ -6,7 +6,7 @@ featured: true
 draft: false
 heroHeading: "Elternative"
 heroSubHeading: "in Frankfurt"
-heroBackground: "services/service2.jpg"
+heroBackground: 'images/titelbild-xb.jpg'
 weight: 2
 ---
 mit Inken Schweigert - Lösungen für herausgeforderte Eltern Mobil +491733101302 oder inken.schweigert@icloud.com

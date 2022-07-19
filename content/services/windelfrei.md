@@ -6,7 +6,7 @@ featured: true
 draft: false
 heroHeading: "WindelFrei/EC-Kurs"
 heroSubHeading: "in Frankfurt"
-heroBackground: "services/service2.jpg"
+heroBackground: 'images/titelbild-xb.jpg'
 weight: 2
 ---
 mit Griseldis Burger: ...sauber bleiben, statt trocken werden! www.windelfrei-frankfurt.de

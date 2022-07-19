@@ -6,7 +6,9 @@ featured: true
 draft: false
 heroHeading: "PEKiP ®"
 heroSubHeading: "Prager Eltern Kind Program"
-heroBackground: "services/service2.jpg"
+heroBackground: 'images/titelbild-xb.jpg'
+button: 'Über Uns'
+buttonLink: 'about'
 wieght: 1
 ---
 Das erste Lebensjahr ist eine ganz besondere Zeit. Das Baby lernt stetig dazu:

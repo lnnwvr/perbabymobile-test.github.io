@@ -6,7 +6,7 @@ featured: true
 draft: false
 heroHeading: "Deine Hebamme "
 heroSubHeading: "in Frankfurt"
-heroBackground: "services/service2.jpg"
+heroBackground: 'images/titelbild-xb.jpg'
 weight: 2
 ---
 mit Andrea Friese: persönliche und individuelle Betreuung mit der Kompetenz aus 25 Jahren Hebammen-Erfahrung www.deine-hebamme-frankfurt.de

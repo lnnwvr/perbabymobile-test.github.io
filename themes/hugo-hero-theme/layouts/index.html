@@ -36,6 +36,33 @@
 </div>
 {{ end }}
 
+{{if  .Site.Data.news }}
+<div class="container pt-8 pb-8 pb-md-14 pt-md-14">
+  <div class="row justify-content-start">
+    <div class="col-12">
+      <h2 class="text-center mb-3">Neuigkeiten</h2>
+    </div>
+    {{ range .Site.Data.news }} 
+    <div class="col-12 col-md-4 mb-1">
+      <div class="service service-summary">
+        {{ if .Params.icon }}
+        <div class="service-image">
+          <img height="80" width="80" src="{{ .link | relURL }}" alt="{{ .Title }}" />
+        </div>
+        {{ end }}
+        <div class="service-content">
+          <h2 class="service-title">
+            <a href="{{ .link | relURL }}">{{ .title }}</a>
+          </h2>
+          {{ .description | truncate 120 "..." }}
+        </div>
+      </div>   
+    </div>
+  {{ end }}
+  </div>
+</div>
+{{end}}
+
 {{ $services := where (where .Site.RegularPages "Type" "services") ".Params.featured" true }}
 {{if gt (len $services) 0}}
 <div class="container pt-8 pb-8 pb-md-14 pt-md-14">

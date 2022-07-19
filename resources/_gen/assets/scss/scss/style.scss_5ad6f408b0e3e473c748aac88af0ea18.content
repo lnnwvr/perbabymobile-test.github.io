@@ -8994,16 +8994,17 @@ html {
 
 .work-summary {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column; }
   .work-summary .work-image {
-    max-height: 400px;
+    max-height: 500px;
     overflow: hidden; }
     .work-summary .work-image img {
       max-width: 100%;
       height: auto; }
   .work-summary .work-content {
     flex: 1;
+    align-items: center;
     padding: 20px;
     border-bottom: 2px solid #e08129; }
     .work-summary .work-content .work-title {

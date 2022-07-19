@@ -1,9 +1,9 @@
 .work-summary {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
   .work-image {
-    max-height: 400px;
+    max-height: 500px;
     overflow: hidden;
     img {
       max-width: 100%;
@@ -12,6 +12,7 @@
   }
   .work-content {
     flex: 1;
+    align-items: center;
     padding: 20px;
     border-bottom: 2px solid $primary;
     .work-title {

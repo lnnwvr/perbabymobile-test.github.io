@@ -6,7 +6,7 @@ featured: true
 draft: false
 heroHeading: "Music together"
 heroSubHeading: "in Frankfurt"
-heroBackground: "services/service2.jpg"
+heroBackground: 'images/titelbild-xb.jpg'
 weight: 2
 ---
 mit Marlies Zornow: Like to have fun making music as a family www.mainhattanmusic.de
