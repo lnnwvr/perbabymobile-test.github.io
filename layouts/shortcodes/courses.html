@@ -8,10 +8,10 @@
   </thead>
   <tbody>
     {{ range .Site.Data.courses }} 
-    {{ $monat := .monat }}
+    {{ $geburtsMonat := .geburtsMonat }}
     {{ range  $i, $e :=  .termine }} 
     <tr>
-      <th scope="row">{{ if eq $i 0 }}{{ $monat }}{{end}}</th>
+      <th scope="row">{{ if eq $i 0 }}{{ $geburtsMonat }}{{end}}</th>
       <td>{{.tag}}</td>
       <td>Ausgebucht</td>
     </tr>

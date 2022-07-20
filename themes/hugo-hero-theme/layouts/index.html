@@ -17,16 +17,19 @@
 
 {{ define "main" }}
 
-{{ partial "hero-image-fullscreen.html" (dict "background" .Params.heroBackground "heading" .Params.heroHeading "subheading" .Params.heroSubHeading "content" .)}}
+{{ partial "hero-image-fullscreen.html" (dict "background" .Params.heroBackground "heading" .Params.heroHeading "subheading" .Params.heroSubHeading "content" . "logo" .Site.Params.logo.desktop)}}
 
 {{ $headless := .Site.GetPage "/homepage" }}
 {{ $reusablePages := $headless.Resources.ByType "page" }}
 {{ $reusablePages := sort $reusablePages ".Params.weight" }}
 {{ range first 1 $reusablePages }}
-<div id="home" class="strip bg-cover bg-position-top bg-overlay" style="background-image: url('{{ .Params.background | relURL }}');">
+<div id="home" class="strip bg-cover bg-position-center bg-overlay">
   <div class="container pt-17 pb-17">
     <div class="row">
-      <div class="col-12 col-md-6 offset-md-6">
+      <div class="col-12 col-md-6">
+        <img class="img-fluid" src="{{ .Params.background | relURL }}"/>
+      </div>
+      <div class="col-12 col-md-6">
         <h2 class="text-primary text-capitalize">{{ .Title }}</h2>
         <p class="text-white">{{ .Content }}</p>
         <a class="button" href="{{ .Params.buttonLink | relURL }}">{{ .Params.button }}</a>
@@ -37,8 +40,8 @@
 {{ end }}
 
 {{if  .Site.Data.news }}
-<div id="home" class=" bg-primary">
-  <div class="container pt-2 pb-2 pb-md-4 pt-md-4">
+<div id="home" class=" bg-secondary">
+  <div class="container pt-4 pb-4 pb-md-4 pt-md-4">
     <div class="row justify-content-center">
       <div class="col-12 col-md-8 text-center text-white">
         <h2>Neuigkeiten</h2>
@@ -46,16 +49,11 @@
     </div>
   </div>
 </div>
-<div class="container pt-8 pb-8 pb-md-14 pt-md-14">
+<div class="container pt-4 pb-4 pb-md-4 pt-md-4 text-center">
   <div class="row justify-content-start">
     {{ range .Site.Data.news }} 
-    <div class="col-12 col-md-4 mb-1">
+    <div class="col-12 col-md-12 mb-12">
       <div class="service service-summary">
-        {{ if .Params.icon }}
-        <div class="service-image">
-          <img height="80" width="80" src="{{ .link | relURL }}" alt="{{ .Title }}" />
-        </div>
-        {{ end }}
         <div class="service-content">
           <h2 class="service-title">
             <a href="{{ .link | relURL }}">{{ .title }}</a>
@@ -69,8 +67,8 @@
 </div>
 {{end}}
 
-<div id="home" class="strip bg-primary">
-  <div class="container pt-2 pb-2 pb-md-4 pt-md-4">
+<div id="home" class="strip bg-secondary">
+  <div class="container pt-4 pb-4 pb-md-4 pt-md-4">
     <div class="row justify-content-center">
       <div class="col-12 col-md-8 text-center text-white">
 <h2>Unsere Angebote</h2>
@@ -97,7 +95,7 @@
 {{end}}
 
 {{ range (after 1 $reusablePages) }}
-<div id="home" class="strip bg-primary bg-cover bg-position-top" style='background-image: url("{{ .Params.background | relURL }}");'>
+<div id="home" class="strip bg-primary bg-cover bg-position-center" style='background-image: url("{{ .Params.background | relURL }}");'>
   <div class="container pt-8 pb-8 pb-md-12 pt-md-12">
     <div class="row justify-content-center">
       <div class="col-12 col-md-8 text-center text-white">

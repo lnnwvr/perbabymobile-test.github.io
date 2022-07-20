@@ -2,6 +2,7 @@
 title: 'PerBabyMusica'
 weight: 2
 background: 'https://unsplash.com/photos/rPOmLGwai2w/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8Mnx8bXVzaWN8ZW58MHx8fHwxNjU4MjMxMDU1&force=true'
+#background: 'images/pbm-raum-1.jpg'
 button: 'Zu den Alben'
 buttonLink: 'work'
 ---

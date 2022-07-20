@@ -1,7 +1,7 @@
 ---
 title: 'Unser Konzept'
 weight: 1
-background: 'images/img-xa1280.jpg'
+background: 'images/pbm-raum-1.jpg'
 button: 'Über Uns'
 buttonLink: 'about'
 ---
