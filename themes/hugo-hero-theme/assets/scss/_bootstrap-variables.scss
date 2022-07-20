@@ -15,10 +15,10 @@ $container-max-widths: (
 
 $grid-gutter-width: 20px;
 
-$white: #ffffff;
-$black: #000000;
-$primary: #e08129;
-$secondary: #0f864a;
+$white: #c5c8b9;
+$black: #21262a;
+$primary: #b94c32;
+$secondary: #21262a;
 
 // Links
 $link-color: $primary;
@@ -27,9 +27,8 @@ $link-hover-color: lighten($primary, 20%);
 $link-hover-decoration: underline;
 
 // Fonts
-$font-family-base: 'Open Sans', 'Helvetica Neue', Arial, sans-serif,
-  -apple-system;
-$font-family-heading: 'Lato', 'Helvetica Neue', Arial, sans-serif, -apple-system;
+$font-family-base: 'Edu NSW ACT Foundation', cursive, Arial, sans-serif, -apple-system;
+$font-family-heading: 'Edu NSW ACT Foundation', cursive, Arial, sans-serif, -apple-system;
 $font-size-base: 1rem; // Assumes the browser default, typically `16px`
 $font-weight-thin: 200;
 $font-weight-light: 300;
