@@ -1,28 +1,28 @@
 email: 'info@perbabymobile.de'
-phone: '+49 69 1234556'
-businessName: 'Per Baby Mobile'
+phone: '+49 (0) 173 310 130 2'
+businessName: 'PerBabyMobile'
 address: |
-  123 Some Street
-  City, State 12345
+  Willemerstraße 29
+  60594 Frankfurt am Main
 hours:
-  - day: Monday
-    open: 8:30am
-    close: 5:00pm
-  - day: Tuesday
-    open: 8:30am
-    close: 5:00pm
-  - day: Wednesday
-    open: 8:30am
-    close: 5:00pm
-  - day: Thursday
-    open: 8:30am
-    close: 5:00pm
-  - day: Friday
-    open: 8:30am
-    close: 5:00pm
-  - day: Saturday
-    open: Closed
+  - day: Montag
+    open: 9:00h
+    close: 17:00h
+  - day: Dienstag
+    open: 9:00h
+    close: 17:00h
+  - day: Mittwoch
+    open: 9:00h
+    close: 17:00h
+  - day: Donnerstag
+    open: 9:00h
+    close: 17:00h
+  - day: Freitag
+    open: 9:00h
+    close: 17:00h            
+  - day: Samstag
+    open: geschlossen
     close:
-  - day: Sunday
-    open: Closed
+  - day: Sonntag
+    open: geschlossen
     close:

@@ -1,12 +1,102 @@
 - geburtsMonat: Januar 2022
   termine: 
   - tag: Mittwoch 9:30 Uhr ab 06. April 2022
-    kapazität: 0
+    kapa: 0
   - tag: Dienstag 9:30 Uhr ab 26. April 2022
-    kapazität: 0
+    kapa: 0
+
 - geburtsMonat: Februar 2022
   termine: 
-  - tag: Mittwoch 9:30 Uhr ab 06. April 2022
-    kapazität: 0
   - tag: Dienstag 9:30 Uhr ab 26. April 2022
-    kapazität: 0    
+    kapa: 0
+  - tag: Montag 16:30 Uhr ab 16. Mai 2022
+    kapa: 0    
+
+- geburtsMonat: März 2022
+  termine: 
+  - tag: Montag 16:30 Uhr ab 16. Mai 2022
+    kapa: 0
+  - tag: Dienstag 14:30 Uhr ab 07. Juni 2022
+    kapa: 0  
+  - tag: Freitag 9:30 Uhr ab 03. Juni 2022
+    kapa: 1     
+
+- geburtsMonat: April 2022
+  termine: 
+  - tag: Freitag 9:30 Uhr ab 03. Juni 2022
+    kapa: 1
+  - tag: Dienstag 14:30 Uhr ab 07. Juni 2022
+    kapa: 0  
+  - tag: Dienstag 11:30 Uhr ab 28. Juni 2022
+    kapa: 0  
+  - tag: Freitag 11:30 Uhr ab 01. Juli 2022
+    kapa: 0   
+
+- geburtsMonat: Mai 2022
+  termine: 
+  - tag: Dienstag 11:30 Uhr ab 28. Juni 2022
+    kapa: 0
+  - tag: Freitag 11:30 Uhr ab 01. Juli 2022
+    kapa: 0
+  - tag: Dienstag 16:30 Uhr ab 02. August 2022
+    kapa: 1
+  - tag: Donnerstag 9:30 Uhr ab 04. August 2022
+    kapa: 1        
+
+- geburtsMonat: Juni 2022
+  termine: 
+  - tag: Freitag 11:30 Uhr ab 01. Juli 2022
+    kapa: 0
+  - tag: Dienstag 16:30 Uhr ab 02. August 2022
+    kapa: 1
+  - tag: Donnerstag 9:30 Uhr ab 04. August 2022
+    kapa: 1
+  - tag: Donnerstag 11:30 Uhr ab 01. September 2022
+    kapa: 1  
+  - tag: Montag 14:30 Uhr ab 05. September 2022
+    kapa: 1
+        
+- geburtsMonat: Juli 2022
+  termine: 
+  - tag: Dienstag 16:30 Uhr ab 02. August 2022
+    kapa: 1
+  - tag: Donnerstag 9:30 Uhr ab 04. August 2022
+    kapa: 1      
+  - tag: Donnerstag 11:30 Uhr ab 01. September 2022
+    kapa: 1
+  - tag: Montag 14:30 Uhr ab 05. September 2022
+    kapa: 1    
+
+- geburtsMonat: August 2022
+  termine: 
+  - tag: Donnerstag 11:30 Uhr ab 01. September 2022
+    kapa: 1
+  - tag: Montag 14:30 Uhr ab 05. September 2022
+    kapa: 1   
+
+- geburtsMonat: September 2022
+  termine: 
+  - tag: Donnerstag 9:30 Uhr ab 04. November 2021
+    kapa: 0
+  - tag: Mittwoch 11:30 Uhr ab 13. Januar 2022
+    kapa: 0 
+  - tag: Donnerstag 11:30 Uhr ab 02. Dezember 2021
+    kapa: 0 
+
+- geburtsMonat: Oktober 2022
+  termine: 
+  - tag: Donnerstag 11:30 Uhr ab 02. Dezember 2021
+    kapa: 0
+
+- geburtsMonat: November 2022
+  termine: 
+  - tag: Mittwoch 14:30 Uhr ab 07. März 2022
+    kapa: 0
+
+     
+- geburtsMonat: Dezember 2022
+  termine: 
+  - tag: Mittwoch 14:30 Uhr ab 07. März 2022
+    kapa: 0
+  - tag: Mittwoch 9:30 Uhr ab 06. April 2022
+    kapa: 0                   

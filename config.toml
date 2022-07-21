@@ -1,4 +1,4 @@
-#baseURL = "/"
+#baseURL = "http://kingstone.local:1313"
 baseURL = "https://www.perbabymobile.de/perbabymobile.de/"
 languageCode = "de-de"
 title = "PerBabyMobile"
@@ -29,9 +29,7 @@ theme = "hugo-hero-theme"
     meta_og_url = "https://www.perbabymobile.de/"
     meta_og_image = "https://www.perbabymobile.de/static/images/tn.png"
     meta_og_description = "PerBabyMobile entstand im Sommer 2000 als erstes und einziges Spiel- und Bewegungszentrum für Babys und Kleinkinder in Frankfurt. Ein Spielraum, der speziell für Babys und Kleinkinder eingerichtet wurde."
-    meta_twitter_card = "summary"
-    meta_twitter_site = "@zerostaticio"
-    meta_twitter_creator = "@zerostaticio"
+
 
 [[menu.main]]
 	name = "Angebote"

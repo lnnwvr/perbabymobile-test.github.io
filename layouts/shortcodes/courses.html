@@ -13,10 +13,10 @@
     <tr>
       <th scope="row">{{ if eq $i 0 }}{{ $geburtsMonat }}{{end}}</th>
       <td>{{.tag}}</td>
-      <td>Ausgebucht</td>
+      <td>{{ if eq .kapa 0 }}Ausgebucht{{else}} <a href='{{ "applynow" | relURL }}'>Freie Plätze</a> {{end}}</td>
     </tr>
     {{end}}
     {{end}}
   </tbody>
 </table>
-<a class="button" href='{{ "applynow" | relURL }}'>Anfrage stellen...</a>
+<a class="button" href='{{ "applynow" | relURL }}'>Anmelden oder auf die Warteliste</a>
